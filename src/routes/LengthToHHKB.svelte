@@ -28,7 +28,7 @@
 			</select>
 		</div>
 
-		<div i-material-symbols-equal rotate='90 md:(180)' />
+		<div i-material-symbols-equal rotate='90 sm:(180)' />
 
 		<p class='join-item' decoration-sky-500 text-2xl text-bold underline>
 			{(toMillimeters(length, unit) / hhkb.info.width).toFixed(2)} HHKBs

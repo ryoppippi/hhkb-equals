@@ -34,7 +34,7 @@
 			</select>
 		</div>
 
-		<div i-material-symbols-equal rotate='90 md:(180)' />
+		<div i-material-symbols-equal rotate='90 sm:(180)' />
 
 		<div class='join'>
 			<p class='join-item' decoration-sky-500 text-2xl text-bold underline>
