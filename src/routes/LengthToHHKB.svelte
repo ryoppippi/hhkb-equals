@@ -11,7 +11,7 @@
 
 <div gap-y-3 gcc>
 	<h1 text-3xl>Length to HHKBs</h1>
-	<div fcc gap-2>
+	<div gap-2 gcc md-fcc>
 		<div class='join'>
 			<input
 				class='input input-bordered join-item'
@@ -31,7 +31,7 @@
 			</select>
 		</div>
 
-		<div i-material-symbols-equal />
+		<div i-material-symbols-equal rotate='90 md:(180)' />
 
 		<select
 			class='select select-bordered'
