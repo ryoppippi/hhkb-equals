@@ -33,3 +33,12 @@
 <Divider />
 
 <PriceToHhkb />
+
+<Divider />
+
+<details>
+	<summary>
+		<code>This Calculator is based on the data below </code>
+	</summary>
+	<pre>{JSON.stringify(HHKBs, null, 2)}</pre>
+</details>
