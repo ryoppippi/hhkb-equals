@@ -13,7 +13,7 @@
 			<input
 				class='input input-bordered join-item'
 				placeholder='length'
-				type='text'
+				type='number'
 				w-30
 				bind:value={length}
 			/>
