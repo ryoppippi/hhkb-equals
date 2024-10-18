@@ -9,7 +9,7 @@
 		toGrams,
 	} from '@/units';
 
-	let width = $state<Mass>(50 as Grams);
+	let weight = $state<Mass>(50 as Grams);
 	let unit = $state(MASS_UNITS[0]);
 	let hhkbName = $state<StringKeyOf<typeof HHKBs>>('HHKB Hybrid Type-S');
 </script>
@@ -20,10 +20,10 @@
 		<div class='join'>
 			<input
 				class='input input-bordered join-item'
-				placeholder='width'
+				placeholder='weight'
 				type='text'
 				w-30
-				bind:value={width}
+				bind:value={weight}
 			/>
 			<select
 				class='select select-bordered join-item'
@@ -51,7 +51,7 @@
 
 		<div class='join'>
 			<p class='join-item' decoration-sky-500 text-2xl text-bold underline>
-				{(toGrams(width, unit) / HHKBs[hhkbName].weight).toFixed(2)} HHKBs
+				{(toGrams(weight, unit) / HHKBs[hhkbName].weight).toFixed(2)} HHKBs
 			</p>
 		</div>
 	</div>
