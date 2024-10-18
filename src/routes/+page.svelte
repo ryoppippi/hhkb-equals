@@ -36,9 +36,15 @@
 
 <Divider />
 
-<details>
-	<summary>
-		<code>This Calculator is based on the data below </code>
-	</summary>
-	<pre>{JSON.stringify(HHKBs, null, 2)}</pre>
-</details>
+<div fcol gap-2>
+	<a href='https://blog.tomoya.dev/posts/prototype-of-the-hhkb/' target='_blank' underline>
+		Why does this tool matter?
+	</a>
+
+	<details>
+		<summary>
+			<code>This Calculator is based on the data below </code>
+		</summary>
+		<pre>{JSON.stringify(HHKBs, null, 2)}</pre>
+	</details>
+</div>
