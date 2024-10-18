@@ -4,10 +4,26 @@
 	import '@unocss/reset/tailwind.css';
 
 	const { children } = $props();
+
+	const title = 'HHKBs equals....';
+	const description = 'Calculate the equivalent of HHKBs';
+
+	const imageURL = `https://blog.tomoya.dev/posts/prototype-of-the-hhkb/hhkb-with-oven.jpg`;
 </script>
 
 <svelte:head>
-	<title>HHKBs equals.... </title>
+	<title>{title}</title>
+	<meta content={title} property='og:title' />
+	<meta name='twitter:title' content={title} />
+
+	<meta name='description' content={description} />
+	<meta content={description} property='og:description' />
+	<meta name='twitter:description' content={description} />
+
+	<meta content={imageURL} property='og:image' />
+	<meta name='twitter:image' content={imageURL} />
+	<meta name='twitter:card' content='summary' />
+	<meta content={imageURL} property='og:image' />
 </svelte:head>
 
 <div m-10>
