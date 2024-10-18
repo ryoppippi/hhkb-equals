@@ -8,7 +8,7 @@
 		toGrams,
 	} from '@/units';
 
-	let weight = $state<Mass>(50 as Grams);
+	let weight = $state<Mass>(540 as Grams);
 	let unit = $state(MASS_UNITS[0]);
 </script>
 

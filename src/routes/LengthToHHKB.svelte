@@ -1,9 +1,9 @@
 <script lang='ts'>
 	import { hhkb } from '@/runes.svelte';
-	import { type Length, LENGTH_UNITS, toMillimeters } from '@/units';
+	import { type Length, LENGTH_UNITS, type Millimeters, toMillimeters } from '@/units';
 
-	let length = $state<Length>(50 as Length);
-	let unit = $state(LENGTH_UNITS[1]);
+	let length = $state<Length>(294 as Millimeters);
+	let unit = $state(LENGTH_UNITS[0]);
 </script>
 
 <div gap-y-3 gcc>
