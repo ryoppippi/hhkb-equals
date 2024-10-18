@@ -23,7 +23,7 @@ export default defineConfig({
     presetIcons({autoInstall: isDevelopment}),
     presetRyoppippi(),
 		presetDaisy({
-			themes: ['cupcake'],
+			themes: ['dark'],
 		}),
   ],
 })

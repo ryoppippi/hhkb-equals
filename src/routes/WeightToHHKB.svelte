@@ -1,6 +1,5 @@
 <script lang='ts'>
-	import type { StringKeyOf } from 'type-fest';
-	import { HHKBs } from '@/hhkb';
+	import { hhkb } from '@/runes.svelte';
 
 	import {
 		type Grams,
@@ -11,12 +10,11 @@
 
 	let weight = $state<Mass>(50 as Grams);
 	let unit = $state(MASS_UNITS[0]);
-	let hhkbName = $state<StringKeyOf<typeof HHKBs>>('HHKB Hybrid Type-S');
 </script>
 
 <div gap-y-3 gcc>
 	<h1 text-3xl>Weight to HHKBs</h1>
-	<div gap-2 gcc md-fcc>
+	<div gap-2 gcc sm-fcc>
 		<div class='join'>
 			<input
 				class='input input-bordered join-item'
@@ -38,20 +36,9 @@
 
 		<div i-material-symbols-equal rotate='90 md:(180)' />
 
-		<select
-			class='select select-bordered'
-			bind:value={hhkbName}
-		>
-			{#each Object.entries(HHKBs) as [name] (name)}
-				<option value={name}>{name}</option>
-			{/each}
-		</select>
-
-		<div i-uis-multiply />
-
 		<div class='join'>
 			<p class='join-item' decoration-sky-500 text-2xl text-bold underline>
-				{(toGrams(weight, unit) / HHKBs[hhkbName].weight).toFixed(2)} HHKBs
+				{(toGrams(weight, unit) / hhkb.info.weight).toFixed(2)} HHKBs
 			</p>
 		</div>
 	</div>

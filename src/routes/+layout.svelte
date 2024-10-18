@@ -10,17 +10,19 @@
 	<title>HHKBs equals.... </title>
 </svelte:head>
 
-{@render children()}
+<div m-10>
+	{@render children()}
 
-<Divider />
+	<Divider />
 
-<a
-	aria-label='GitHub repository'
-	href='https://github.com/ryoppippi/hhkb-equals'
-	target='_blank'
->
-	<div h-8 i-line-md-github-loop w-8 />
-</a>
+	<a
+		aria-label='GitHub repository'
+		href='https://github.com/ryoppippi/hhkb-equals'
+		target='_blank'
+	>
+		<div h-8 i-line-md-github-loop w-8 />
+	</a>
 
-<p>MIT License</p>
-<p>Copyright (c) 2024 ryoppippi</p>
+	<p>MIT License</p>
+	<p>Copyright (c) 2024 ryoppippi</p>
+</div>
