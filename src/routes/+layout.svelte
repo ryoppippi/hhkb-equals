@@ -5,6 +5,10 @@
 	const { children } = $props();
 </script>
 
+<svelte:head>
+	<title>HHKBs equals.... </title>
+</svelte:head>
+
 {@render children()}
 
 <p>MIT License</p>
