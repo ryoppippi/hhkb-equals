@@ -21,6 +21,7 @@ export const LENGTH_UNITS = [
 	'm',
 	'km',
 	'inch',
+	'mile',
 ] as const;
 
 export type LengthUnit = typeof LENGTH_UNITS[number];
@@ -79,6 +80,8 @@ export function toMillimeters(length: Length, unit: LengthUnit): Millimeters {
 			return kilometersToMillimeters(length as Kilometers);
 		case 'inch':
 			return inchesToMillimeters(length as Inches);
+		case 'mile':
+			return milesToMillimeters(length as Miles);
 		default:
 			unit satisfies never;
 			throw new Error(`Unknown unit: ${unit as string}`);
