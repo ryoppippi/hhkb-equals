@@ -9,9 +9,11 @@ export type Miles = Tagged<number, 'Miles'>;
 export type Grams = Tagged<number, 'Grams'>;
 export type Kilograms = Tagged<number, 'Kilograms'>;
 export type Pounds = Tagged<number, 'Pounds'>;
+export type	JPY = Tagged<number, 'Yen'>;
 
 export type Length = Millimeters | Centimeters | Inches | Meter | Kilometers | Miles;
 export type Mass = Grams | Kilograms | Pounds;
+export type Currency = JPY;
 
 export const LENGTH_UNITS = [
 	'mm',
@@ -30,6 +32,12 @@ export const MASS_UNITS = [
 ] as const;
 
 export type MassUnit = typeof MASS_UNITS[number];
+
+export const CURRENCIES = [
+	'JPY',
+] as const;
+
+export type CurrencyUnit = typeof CURRENCIES[number];
 
 export function milesToMillimeters(miles: Miles): Millimeters {
 	return miles * 1609344 as Millimeters;
@@ -88,5 +96,15 @@ export function toGrams(mass: Mass, unit: MassUnit): Grams {
 		default:
 			unit satisfies never;
 			throw new Error(`Unknown unit: ${unit as string}`);
+	}
+}
+
+export function toJpy(price: JPY, unit: CurrencyUnit): JPY {
+	switch (unit) {
+		case 'JPY':
+			return price;
+		default:
+			unit satisfies never;
+			throw new Error(`Unknown currency: ${unit as string}`);
 	}
 }
