@@ -34,7 +34,7 @@
 		"svelte": "^5.2.7",
 		"svelte-check": "^4.1.0",
 		"type-fest": "^4.27.1",
-		"typescript": "^5.6.3",
+		"typescript": "^5.7.2",
 		"unocss": "^0.63.4",
 		"unocss-preset-animations": "^1.1.0",
 		"unocss-preset-daisy": "^7.0.0",
