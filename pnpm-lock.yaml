@@ -39,8 +39,8 @@ importers:
         specifier: ^0.65.1
         version: 0.65.1
       '@unocss/preset-attributify':
-        specifier: ^0.64.1
-        version: 0.64.1
+        specifier: ^0.65.1
+        version: 0.65.1
       '@unocss/reset':
         specifier: ^0.64.1
         version: 0.64.1
@@ -890,6 +890,9 @@ packages:
   '@unocss/core@0.64.1':
     resolution: {integrity: sha512-D1ULd70a24/k6kGyHCIijbrrIn9UjFUEBg2R4xKX2/ViQb1k2MIgOs4VS20MkJX6kbZXqqm/zAFHzDhsQGIhBA==}
 
+  '@unocss/core@0.65.1':
+    resolution: {integrity: sha512-Ke0WNZjfSCE6pniJb8PjiwhO6/McxVb1EQYrkkz8aJuR83xu+AEcTog9D4N9EUkRfHS5tZYXQtTj4Uh90T6CEg==}
+
   '@unocss/extractor-arbitrary-variants@0.64.1':
     resolution: {integrity: sha512-tKtaeZYzSCaH1ASE7Uj45rPX4ApQHYE8eZFfaL3N4ZY0LYrTJPBnaLSRfLRwGD6KLHjoL3+sorywJiS/VVBcFQ==}
 
@@ -907,6 +910,9 @@ packages:
 
   '@unocss/preset-attributify@0.64.1':
     resolution: {integrity: sha512-uxq4iiMZN+/Dy/TAQI/b+mWbHqI7ww/vVJC8tvjdXm9C4SditLb1Wd+Y183nhXI3Pa78wEibK5t8RaDc/fgKPg==}
+
+  '@unocss/preset-attributify@0.65.1':
+    resolution: {integrity: sha512-bmu9JELcpwgrXA5RonvFeWb38RcUz82wpWfyDwKdQRJHD3MnYQ5lN03W4B7nMsAflc4ls7XQZLzhn9iYhbYYqg==}
 
   '@unocss/preset-icons@0.64.1':
     resolution: {integrity: sha512-aQ4hN2NFdJo08pzUYc1FpwTkNUByE7FB51KmRwXclsVKeXFGvFO3YUYeg5IDlTxqCfvFVWZ3q8NhnmpKGkbutw==}
@@ -3452,6 +3458,8 @@ snapshots:
 
   '@unocss/core@0.64.1': {}
 
+  '@unocss/core@0.65.1': {}
+
   '@unocss/extractor-arbitrary-variants@0.64.1':
     dependencies:
       '@unocss/core': 0.64.1
@@ -3482,6 +3490,10 @@ snapshots:
   '@unocss/preset-attributify@0.64.1':
     dependencies:
       '@unocss/core': 0.64.1
+
+  '@unocss/preset-attributify@0.65.1':
+    dependencies:
+      '@unocss/core': 0.65.1
 
   '@unocss/preset-icons@0.64.1':
     dependencies:
