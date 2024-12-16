@@ -21,8 +21,8 @@ importers:
         specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.25
         version: '@jsr/ryoppippi__eslint-config@0.0.25(@typescript-eslint/utils@8.17.0(eslint@9.16.0(jiti@1.21.6))(typescript@5.7.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@0.1.3(eslint@9.16.0(jiti@1.21.6)))(eslint-plugin-svelte@2.46.1(eslint@9.16.0(jiti@1.21.6))(svelte@5.10.0))(eslint@9.16.0(jiti@1.21.6))(svelte-eslint-parser@0.43.0(svelte@5.10.0))(typescript@5.7.2)'
       '@ryoppippi/unocss-preset':
-        specifier: npm:@jsr/ryoppippi__unocss-preset@^1.0.4
-        version: '@jsr/ryoppippi__unocss-preset@1.0.4'
+        specifier: npm:@jsr/ryoppippi__unocss-preset@^1.0.5
+        version: '@jsr/ryoppippi__unocss-preset@1.0.5'
       '@sveltejs/adapter-auto':
         specifier: ^3.3.1
         version: 3.3.1(@sveltejs/kit@2.9.0(@sveltejs/vite-plugin-svelte@4.0.2(svelte@5.10.0)(vite@5.4.11))(svelte@5.10.0)(vite@5.4.11))
@@ -599,8 +599,8 @@ packages:
   '@jsr/ryoppippi__eslint-config@0.0.25':
     resolution: {integrity: sha512-mwMuE8qjMwNX3MLgGM8JwokghEHSAA8azksBAxPxghA1qVOMfP3s3d4n697CmHB5sVEyParx769vaDiuSZp5tQ==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__eslint-config/0.0.25.tgz}
 
-  '@jsr/ryoppippi__unocss-preset@1.0.4':
-    resolution: {integrity: sha512-+NxOkaHHpCVwvrvn2zG9oRTzB4dgv8aPgJjVyd1pMowNl1IxidMhpc2qV5MnASIZaol2eeWmj9wq7r5LtIltJg==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__unocss-preset/1.0.4.tgz}
+  '@jsr/ryoppippi__unocss-preset@1.0.5':
+    resolution: {integrity: sha512-wqHOdKwcFY2RkcBQMt5YPEyxLryY4qMSU2rduwfrom1mz7dGZo6iDDji60D4TTMvqtgjONm0TPNjMGnGhwG2kg==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__unocss-preset/1.0.5.tgz}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -883,9 +883,6 @@ packages:
   '@unocss/config@0.65.1':
     resolution: {integrity: sha512-Akf5Vm2bGrUK/a10QBF3GLETFJnwW1G8ThPevrOCj0lBVWKlN5eMQnodyNdoCw+JMPfCPZdg+4lU8cJJIRAAbQ==}
     engines: {node: '>=14'}
-
-  '@unocss/core@0.63.4':
-    resolution: {integrity: sha512-VB4DJ5DsRWpX64si5tWYRXf1n5UkYQqe2s1V22qFiWmXa7Ec+Vf9s3cxWZmoWFC5P9RQiwM9kAqxdg1G+elVkQ==}
 
   '@unocss/core@0.65.1':
     resolution: {integrity: sha512-Ke0WNZjfSCE6pniJb8PjiwhO6/McxVb1EQYrkkz8aJuR83xu+AEcTog9D4N9EUkRfHS5tZYXQtTj4Uh90T6CEg==}
@@ -3126,9 +3123,9 @@ snapshots:
       - typescript
       - vitest
 
-  '@jsr/ryoppippi__unocss-preset@1.0.4':
+  '@jsr/ryoppippi__unocss-preset@1.0.5':
     dependencies:
-      '@unocss/core': 0.63.4
+      '@unocss/core': 0.65.1
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -3443,8 +3440,6 @@ snapshots:
       unconfig: 0.5.5
     transitivePeerDependencies:
       - supports-color
-
-  '@unocss/core@0.63.4': {}
 
   '@unocss/core@0.65.1': {}
 
