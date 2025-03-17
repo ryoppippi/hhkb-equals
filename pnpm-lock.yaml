@@ -21,8 +21,8 @@ importers:
         specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.26
         version: '@jsr/ryoppippi__eslint-config@0.0.26(@typescript-eslint/utils@8.26.1(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.22.0(jiti@2.4.2)))(eslint-plugin-svelte@2.46.1(eslint@9.22.0(jiti@2.4.2))(svelte@5.22.6))(eslint@9.22.0(jiti@2.4.2))(svelte-eslint-parser@0.43.0(svelte@5.22.6))(typescript@5.8.2)'
       '@ryoppippi/unocss-preset':
-        specifier: npm:@jsr/ryoppippi__unocss-preset@^1.0.7
-        version: '@jsr/ryoppippi__unocss-preset@1.0.7'
+        specifier: npm:@jsr/ryoppippi__unocss-preset@^1.0.8
+        version: '@jsr/ryoppippi__unocss-preset@1.0.8'
       '@sveltejs/adapter-auto':
         specifier: ^4.0.0
         version: 4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.1.1(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.0)))(svelte@5.22.6)(vite@6.1.1(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.0)))
@@ -628,8 +628,8 @@ packages:
   '@jsr/ryoppippi__eslint-config@0.0.26':
     resolution: {integrity: sha512-Vp1fMoi2oV4jZSQCtVJMeUN7VIMJ6kuzodoiSStCMGIGcoQduAe6GpEE9TbgND2xteOZqW1+vKDjaeuk8zZkmQ==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__eslint-config/0.0.26.tgz}
 
-  '@jsr/ryoppippi__unocss-preset@1.0.7':
-    resolution: {integrity: sha512-YU1ZMTGn0bTKjg+AMYMNAA0NA6Np8/jX26NqS8DSwW3MIM+POhhI0JPyF3+bOMBLokoi8jbepL8g3CwsZeFybA==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__unocss-preset/1.0.7.tgz}
+  '@jsr/ryoppippi__unocss-preset@1.0.8':
+    resolution: {integrity: sha512-qjh9JnLhbQHFBiLNfxXw60i0d23vbZLGTyLvRYdjQ1wH5z0PKUSvl2B2Oi43rLevSMVPop1cQurs9N6xLS2EAw==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__unocss-preset/1.0.8.tgz}
 
   '@napi-rs/wasm-runtime@0.2.7':
     resolution: {integrity: sha512-5yximcFK5FNompXfJFoWanu5l8v1hNGqNHh9du1xETp9HWk/B/PzvchX55WYOPaIeNglG8++68AAiauBAtbnzw==}
@@ -909,9 +909,6 @@ packages:
 
   '@unocss/core@0.65.4':
     resolution: {integrity: sha512-a2JOoFutrhqd5RgPhIR5FIXrDoHDU3gwCbPrpT6KYTjsqlSc/fv02yZ+JGOZFN3MCFhCmaPTs+idDFtwb3xU8g==}
-
-  '@unocss/core@65.4.3':
-    resolution: {integrity: sha512-luFgdcchSlNrYSaDvU2176T2PPQZdxqfREVbxEXNXlFEgyEFrx5hOSUXoJtJSZjRhAcE6zkWyLDf/JkQJ5Eeyw==}
 
   '@unocss/core@66.0.0':
     resolution: {integrity: sha512-PdVbSMHNDDkr++9nkqzsZRAkaU84gxMTEgYbqI7dt2p1DXp/5tomVtmMsr2/whXGYKRiUc0xZ3p4Pzraz8TcXA==}
@@ -3281,9 +3278,9 @@ snapshots:
       - typescript
       - vitest
 
-  '@jsr/ryoppippi__unocss-preset@1.0.7':
+  '@jsr/ryoppippi__unocss-preset@1.0.8':
     dependencies:
-      '@unocss/core': 65.4.3
+      '@unocss/core': 66.0.0
 
   '@napi-rs/wasm-runtime@0.2.7':
     dependencies:
@@ -3590,8 +3587,6 @@ snapshots:
       - supports-color
 
   '@unocss/core@0.65.4': {}
-
-  '@unocss/core@65.4.3': {}
 
   '@unocss/core@66.0.0': {}
 
