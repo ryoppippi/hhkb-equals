@@ -33,7 +33,7 @@
 		"std-env": "^3.8.1",
 		"svelte": "^5.25.2",
 		"svelte-check": "^4.1.5",
-		"type-fest": "^4.36.0",
+		"type-fest": "^4.37.0",
 		"typescript": "^5.8.2",
 		"unocss": "^0.65.4",
 		"unocss-preset-animations": "^1.1.1",
