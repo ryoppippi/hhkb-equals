@@ -12,8 +12,8 @@ importers:
         specifier: ^24.3.0
         version: 24.3.0
       '@iconify-json/line-md':
-        specifier: ^1.2.5
-        version: 1.2.5
+        specifier: ^1.2.6
+        version: 1.2.7
       '@iconify-json/material-symbols':
         specifier: ^1.2.17
         version: 1.2.17
@@ -591,8 +591,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify-json/line-md@1.2.5':
-    resolution: {integrity: sha512-6zFKhs6g++kFJLLi+ye5nPoHgjYh44yVLjua0tmbxH1HdImMQZ6rkRsPnBgxADY4bQWiapXBzfoiz7+UBXgtWg==}
+  '@iconify-json/line-md@1.2.7':
+    resolution: {integrity: sha512-ps7izJ+UwvFGWhbqNQ24JmbzRFIqTG3riesqfnwfPIwxa0TCIvngQdn0M6wv8EyidgWlko3CcBsPkGl49hqTdA==}
 
   '@iconify-json/material-symbols@1.2.17':
     resolution: {integrity: sha512-hKb+Ii5cqLXXefYMxUB2jIc8BNqxixQogud4KU/fn0F4puM1iCdCF2lFV+0U8wnJ6dZIx6E+w8Ree4bIT7To+A==}
@@ -3202,7 +3202,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@iconify-json/line-md@1.2.5':
+  '@iconify-json/line-md@1.2.7':
     dependencies:
       '@iconify/types': 2.0.0
 
