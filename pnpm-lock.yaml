@@ -66,8 +66,8 @@ importers:
         specifier: ^4.1.5
         version: 4.1.5(picomatch@4.0.2)(svelte@5.26.3)(typescript@5.8.3)
       type-fest:
-        specifier: ^4.38.0
-        version: 4.38.0
+        specifier: ^4.39.1
+        version: 4.39.1
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -2631,8 +2631,8 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  type-fest@4.38.0:
-    resolution: {integrity: sha512-2dBz5D5ycHIoliLYLi0Q2V7KRaDlH0uWIvmk7TYlAg5slqwiPv1ezJdZm1QEM0xgk29oYWMCbIG7E6gHpvChlg==}
+  type-fest@4.39.1:
+    resolution: {integrity: sha512-uW9qzd66uyHYxwyVBYiwS4Oi0qZyUqwjU+Oevr6ZogYiXt99EOYtwvzMSLw1c3lYo2HzJsep/NB23iEVEgjG/w==}
     engines: {node: '>=16'}
 
   typescript@5.8.3:
@@ -5156,7 +5156,7 @@ snapshots:
     dependencies:
       '@babel/code-frame': 7.25.7
       index-to-position: 0.1.2
-      type-fest: 4.38.0
+      type-fest: 4.39.1
 
   parsel-js@1.1.2: {}
 
@@ -5296,14 +5296,14 @@ snapshots:
     dependencies:
       find-up-simple: 1.0.1
       read-pkg: 9.0.1
-      type-fest: 4.38.0
+      type-fest: 4.39.1
 
   read-pkg@9.0.1:
     dependencies:
       '@types/normalize-package-data': 2.4.4
       normalize-package-data: 6.0.2
       parse-json: 8.1.0
-      type-fest: 4.38.0
+      type-fest: 4.39.1
       unicorn-magic: 0.1.0
 
   readdirp@3.6.0:
@@ -5618,7 +5618,7 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  type-fest@4.38.0: {}
+  type-fest@4.39.1: {}
 
   typescript@5.8.3: {}
 
