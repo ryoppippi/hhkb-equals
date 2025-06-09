@@ -21,7 +21,7 @@
 		"@ryoppippi/unocss-preset": "npm:@jsr/ryoppippi__unocss-preset@^1.0.8",
 		"@sveltejs/adapter-auto": "^6.0.1",
 		"@sveltejs/adapter-static": "^3.0.8",
-		"@sveltejs/kit": "^2.21.1",
+		"@sveltejs/kit": "^2.21.2",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
 		"@unocss/extractor-svelte": "^66.1.3",
 		"@unocss/preset-attributify": "^66.1.3",
