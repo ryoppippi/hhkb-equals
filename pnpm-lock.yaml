@@ -36,8 +36,8 @@ importers:
         specifier: ^5.1.1
         version: 5.1.1(svelte@5.33.18)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1))
       '@unocss/extractor-svelte':
-        specifier: ^66.3.2
-        version: 66.3.2
+        specifier: ^66.3.3
+        version: 66.3.3
       '@unocss/preset-attributify':
         specifier: ^66.3.2
         version: 66.3.3
@@ -1076,8 +1076,8 @@ packages:
   '@unocss/extractor-arbitrary-variants@0.65.4':
     resolution: {integrity: sha512-GbvTgsDaHplfWfsQtOY8RrvEZvptmvR9k9NwQ5NsZBNIG1JepYVel93CVQvsxT5KioKcoWngXxTYLNOGyxLs0g==}
 
-  '@unocss/extractor-svelte@66.3.2':
-    resolution: {integrity: sha512-MqISn942nnxovusRDzsvnw7SGAjTAnWoXYAZskVyTIVM3xsxLaoNH7AjfMWv0OpTauDeJEcVk3TNTYV5Zl+6xQ==}
+  '@unocss/extractor-svelte@66.3.3':
+    resolution: {integrity: sha512-6ExejgiA59Afl0MByQKeG1hLY3kwBIjUSRhz8/g/3oXrycbD5IP/OsvgbdOKhkpuVpNDmt0z8DzJs8FlyM5VUw==}
 
   '@unocss/inspector@0.65.4':
     resolution: {integrity: sha512-byg9x549Ul17U4Ety7ufDwC0UOygypoq4QnLEPzhlZ0KJG1f7WmXKYanOhupeg3h4qCj6Nc/xdZYMGbHl9QRIg==}
@@ -3846,7 +3846,7 @@ snapshots:
     dependencies:
       '@unocss/core': 0.65.4
 
-  '@unocss/extractor-svelte@66.3.2': {}
+  '@unocss/extractor-svelte@66.3.3': {}
 
   '@unocss/inspector@0.65.4(vue@3.5.13(typescript@5.8.3))':
     dependencies:
