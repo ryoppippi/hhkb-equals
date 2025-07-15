@@ -42,7 +42,7 @@ importers:
         specifier: ^66.3.3
         version: 66.3.3
       '@unocss/reset':
-        specifier: ^66.3.2
+        specifier: ^66.3.3
         version: 66.3.3
       eslint:
         specifier: ^9.30.1
