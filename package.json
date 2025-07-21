@@ -28,7 +28,7 @@
 		"@unocss/reset": "^66.3.3",
 		"eslint": "^9.31.0",
 		"eslint-plugin-format": "^1.0.1",
-		"eslint-plugin-svelte": "^3.9.2",
+		"eslint-plugin-svelte": "^3.11.0",
 		"lucide-svelte": "^0.513.0",
 		"std-env": "^3.9.0",
 		"svelte": "^5.33.17",
