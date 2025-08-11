@@ -27,8 +27,8 @@ importers:
         specifier: ^6.0.2
         version: 6.0.2(@sveltejs/kit@2.27.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))
       '@sveltejs/adapter-static':
-        specifier: ^3.0.8
-        version: 3.0.8(@sveltejs/kit@2.27.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))
+        specifier: ^3.0.9
+        version: 3.0.9(@sveltejs/kit@2.27.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))
       '@sveltejs/kit':
         specifier: ^2.27.0
         version: 2.27.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1))
@@ -945,8 +945,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/adapter-static@3.0.8':
-    resolution: {integrity: sha512-YaDrquRpZwfcXbnlDsSrBQNCChVOT9MGuSg+dMAyfsAa1SmiAhrA5jUYUiIMC59G92kIbY/AaQOWcBdq+lh+zg==}
+  '@sveltejs/adapter-static@3.0.9':
+    resolution: {integrity: sha512-aytHXcMi7lb9ljsWUzXYQ0p5X1z9oWud2olu/EpmH7aCu4m84h7QLvb5Wp+CFirKcwoNnYvYWhyP/L8Vh1ztdw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -3637,7 +3637,7 @@ snapshots:
     dependencies:
       '@sveltejs/kit': 2.27.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1))
 
-  '@sveltejs/adapter-static@3.0.8(@sveltejs/kit@2.27.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))':
+  '@sveltejs/adapter-static@3.0.9(@sveltejs/kit@2.27.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))':
     dependencies:
       '@sveltejs/kit': 2.27.0(@sveltejs/vite-plugin-svelte@6.1.0(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1))
 
