@@ -24,8 +24,8 @@ importers:
         specifier: npm:@jsr/ryoppippi__unocss-preset@^1.0.8
         version: '@jsr/ryoppippi__unocss-preset@1.0.8'
       '@sveltejs/adapter-auto':
-        specifier: ^6.0.2
-        version: 6.0.2(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@6.1.2(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))
+        specifier: ^6.1.0
+        version: 6.1.0(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@6.1.2(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))
       '@sveltejs/adapter-static':
         specifier: ^3.0.9
         version: 3.0.9(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@6.1.2(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))
@@ -940,8 +940,8 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@sveltejs/adapter-auto@6.0.2':
-    resolution: {integrity: sha512-SEyhlW5dMcsAZBONGCKUlK3+Ywr+8I2OupJh7OJR0URqsGzvkcWKRkBXqWifWVJnehjCGVLaqD/94aZ3xpj1jQ==}
+  '@sveltejs/adapter-auto@6.1.0':
+    resolution: {integrity: sha512-shOuLI5D2s+0zTv2ab5M5PqfknXqWbKi+0UwB9yLTRIdzsK1R93JOO8jNhIYSHdW+IYXIYnLniu+JZqXs7h9Wg==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -3633,7 +3633,7 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/adapter-auto@6.0.2(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@6.1.2(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))':
+  '@sveltejs/adapter-auto@6.1.0(@sveltejs/kit@2.27.3(@sveltejs/vite-plugin-svelte@6.1.2(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))':
     dependencies:
       '@sveltejs/kit': 2.27.3(@sveltejs/vite-plugin-svelte@6.1.2(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)))(svelte@5.37.3)(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1))
 
