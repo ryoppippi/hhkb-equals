@@ -36,7 +36,7 @@ importers:
         specifier: ^6.1.4
         version: 6.1.4(svelte@5.38.7)(vite@6.3.6(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1))
       '@unocss/extractor-svelte':
-        specifier: ^66.5.0
+        specifier: ^66.5.1
         version: 66.5.1
       '@unocss/preset-attributify':
         specifier: ^66.5.0
