@@ -39,7 +39,7 @@ importers:
         specifier: ^66.5.1
         version: 66.5.1
       '@unocss/preset-attributify':
-        specifier: ^66.5.0
+        specifier: ^66.5.1
         version: 66.5.1
       '@unocss/reset':
         specifier: ^66.4.2
