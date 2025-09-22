@@ -27,7 +27,7 @@
 		"@unocss/preset-attributify": "^66.5.1",
 		"@unocss/reset": "^66.4.2",
 		"eslint": "^9.34.0",
-		"eslint-plugin-format": "^1.0.1",
+		"eslint-plugin-format": "^1.0.2",
 		"eslint-plugin-svelte": "^3.11.0",
 		"lucide-svelte": "^0.541.0",
 		"std-env": "^3.9.0",
