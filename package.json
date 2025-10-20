@@ -23,7 +23,7 @@
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.43.8",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
-		"@unocss/extractor-svelte": "^66.5.3",
+		"@unocss/extractor-svelte": "^66.5.4",
 		"@unocss/preset-attributify": "^66.5.3",
 		"@unocss/reset": "^66.5.3",
 		"eslint": "^9.37.0",
