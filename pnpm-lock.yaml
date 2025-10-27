@@ -54,8 +54,8 @@ importers:
         specifier: ^3.12.5
         version: 3.12.5(eslint@9.38.0(jiti@1.21.7))(svelte@5.39.11)
       lucide-svelte:
-        specifier: ^0.544.0
-        version: 0.544.0(svelte@5.39.11)
+        specifier: ^0.548.0
+        version: 0.548.0(svelte@5.39.11)
       std-env:
         specifier: ^3.9.0
         version: 3.9.0
@@ -2122,8 +2122,8 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  lucide-svelte@0.544.0:
-    resolution: {integrity: sha512-8kBxSivf8SJdEUJRHBpu9bRw0S/qfVK+Yfb92KQnRRBdP425RzT6aQfrIfZctG1oucPVTBQe1ZXgmth/3qVICg==}
+  lucide-svelte@0.548.0:
+    resolution: {integrity: sha512-aW2BfHWBLWf/XPSKytTPV16AWfFeFIJeUyOg7eHY2rhzVQ0u0LIvoS4pm2oskr+OJVw+NsS8fPvlBVqPfUO1XQ==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
 
@@ -5029,7 +5029,7 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  lucide-svelte@0.544.0(svelte@5.39.11):
+  lucide-svelte@0.548.0(svelte@5.39.11):
     dependencies:
       svelte: 5.39.11
 
