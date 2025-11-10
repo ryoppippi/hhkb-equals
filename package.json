@@ -24,7 +24,7 @@
 		"@sveltejs/kit": "^2.48.4",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"@unocss/extractor-svelte": "^66.5.5",
-		"@unocss/preset-attributify": "^66.5.4",
+		"@unocss/preset-attributify": "^66.5.5",
 		"@unocss/reset": "^66.5.4",
 		"eslint": "^9.39.0",
 		"eslint-plugin-format": "^1.0.2",
