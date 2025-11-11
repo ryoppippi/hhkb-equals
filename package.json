@@ -26,7 +26,7 @@
 		"@unocss/extractor-svelte": "^66.5.5",
 		"@unocss/preset-attributify": "^66.5.5",
 		"@unocss/reset": "^66.5.5",
-		"eslint": "^9.39.0",
+		"eslint": "^9.39.1",
 		"eslint-plugin-format": "^1.0.2",
 		"eslint-plugin-svelte": "^3.13.0",
 		"lucide-svelte": "^0.552.0",
