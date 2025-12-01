@@ -29,7 +29,7 @@
 		"eslint": "^9.39.1",
 		"eslint-plugin-format": "^1.0.2",
 		"eslint-plugin-svelte": "^3.13.0",
-		"lucide-svelte": "^0.554.0",
+		"lucide-svelte": "^0.555.0",
 		"std-env": "^3.10.0",
 		"svelte": "^5.43.14",
 		"svelte-check": "^4.3.4",
