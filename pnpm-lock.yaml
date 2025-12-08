@@ -39,8 +39,8 @@ importers:
         specifier: ^66.5.10
         version: 66.5.10
       '@unocss/preset-attributify':
-        specifier: ^66.5.9
-        version: 66.5.9
+        specifier: ^66.5.10
+        version: 66.5.10
       '@unocss/reset':
         specifier: ^66.5.9
         version: 66.5.9
@@ -1091,8 +1091,8 @@ packages:
   '@unocss/core@66.0.0':
     resolution: {integrity: sha512-PdVbSMHNDDkr++9nkqzsZRAkaU84gxMTEgYbqI7dt2p1DXp/5tomVtmMsr2/whXGYKRiUc0xZ3p4Pzraz8TcXA==}
 
-  '@unocss/core@66.5.9':
-    resolution: {integrity: sha512-0ch1dN1AJFX+QCxaQR6WLfWqr8PHt7U/wqSTm5vdLXTsm96R7ggCGMs360TiDMimDUvXak6gka+y/6wdQBf8/A==}
+  '@unocss/core@66.5.10':
+    resolution: {integrity: sha512-SEmPE4pWNn9VcCvZqovPwFGuG/j69W3zh+x1Ky4z/I2pnyoB0Y0lBmq22KVu/dwExe+ZKKTQpxa0j5rbE27rDQ==}
 
   '@unocss/extractor-arbitrary-variants@0.65.4':
     resolution: {integrity: sha512-GbvTgsDaHplfWfsQtOY8RrvEZvptmvR9k9NwQ5NsZBNIG1JepYVel93CVQvsxT5KioKcoWngXxTYLNOGyxLs0g==}
@@ -1112,8 +1112,8 @@ packages:
   '@unocss/preset-attributify@0.65.4':
     resolution: {integrity: sha512-zxE9hJJ5b37phjdzDdZsxX559ZlmH9rFlY5LVEcQySTnsfY0znviHxPbD2iRpCBCRd+YC5HfFd2jb3XlnTKMJQ==}
 
-  '@unocss/preset-attributify@66.5.9':
-    resolution: {integrity: sha512-PHmN+d32443WIV6rCksTHuO+19susHQrpiOddS6QiYN9LLTvJ8CAmdJYNmQUIOhlZsDhV7EjGZM9idUNK8C7ZA==}
+  '@unocss/preset-attributify@66.5.10':
+    resolution: {integrity: sha512-dEFs8kXC9xoqolQBFvtgXvdzWQqHoWqSj/eosX2oDmy8REk7UErpBvMmqR4pCP7mqdtG8yZ2l34Gtb42hDM3JA==}
 
   '@unocss/preset-icons@0.65.4':
     resolution: {integrity: sha512-5sSzTN72X2Ag3VH48xY1pYudeWnql9jqdMiwgZuLJcmvETBNGelXy2wGxm7tsUUEx/l40Yr04Ck8XRPGT9jLBw==}
@@ -3870,7 +3870,7 @@ snapshots:
 
   '@unocss/core@66.0.0': {}
 
-  '@unocss/core@66.5.9': {}
+  '@unocss/core@66.5.10': {}
 
   '@unocss/extractor-arbitrary-variants@0.65.4':
     dependencies:
@@ -3904,9 +3904,9 @@ snapshots:
     dependencies:
       '@unocss/core': 0.65.4
 
-  '@unocss/preset-attributify@66.5.9':
+  '@unocss/preset-attributify@66.5.10':
     dependencies:
-      '@unocss/core': 66.5.9
+      '@unocss/core': 66.5.10
 
   '@unocss/preset-icons@0.65.4':
     dependencies:
