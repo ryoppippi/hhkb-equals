@@ -15,7 +15,7 @@
 	},
 	"devDependencies": {
 		"@antfu/ni": "^28.0.0",
-		"@iconify-json/line-md": "^1.2.11",
+		"@iconify-json/line-md": "^1.2.13",
 		"@iconify-json/material-symbols": "^1.2.50",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.28",
 		"@ryoppippi/unocss-preset": "npm:@jsr/ryoppippi__unocss-preset@^1.0.8",
