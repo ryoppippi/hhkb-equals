@@ -14,7 +14,7 @@
 		"format": "nr lint --fix"
 	},
 	"devDependencies": {
-		"@antfu/ni": "^28.0.0",
+		"@antfu/ni": "^28.1.0",
 		"@iconify-json/line-md": "^1.2.13",
 		"@iconify-json/material-symbols": "^1.2.51",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.28",
