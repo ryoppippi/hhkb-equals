@@ -30,7 +30,7 @@ importers:
         specifier: ^3.0.10
         version: 3.0.10(@sveltejs/kit@2.49.5(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.46.4)(vite@7.3.1(jiti@1.21.7)(tsx@4.19.2)(yaml@2.8.1)))(svelte@5.46.4)(typescript@5.9.3)(vite@7.3.1(jiti@1.21.7)(tsx@4.19.2)(yaml@2.8.1)))
       '@sveltejs/kit':
-        specifier: ^2.49.4
+        specifier: ^2.49.5
         version: 2.49.5(@sveltejs/vite-plugin-svelte@6.2.4(svelte@5.46.4)(vite@7.3.1(jiti@1.21.7)(tsx@4.19.2)(yaml@2.8.1)))(svelte@5.46.4)(typescript@5.9.3)(vite@7.3.1(jiti@1.21.7)(tsx@4.19.2)(yaml@2.8.1))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.4
