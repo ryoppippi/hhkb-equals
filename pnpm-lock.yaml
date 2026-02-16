@@ -15,8 +15,8 @@ importers:
         specifier: ^1.2.14
         version: 1.2.14
       '@iconify-json/material-symbols':
-        specifier: ^1.2.54
-        version: 1.2.54
+        specifier: ^1.2.55
+        version: 1.2.55
       '@ryoppippi/eslint-config':
         specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.28
         version: '@jsr/ryoppippi__eslint-config@0.0.28(@typescript-eslint/utils@8.26.1(eslint@10.0.0(jiti@1.21.7))(typescript@5.9.3))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.4.0(eslint@10.0.0(jiti@1.21.7)))(eslint-plugin-svelte@3.14.0(eslint@10.0.0(jiti@1.21.7))(svelte@5.50.0))(eslint@10.0.0(jiti@1.21.7))(svelte-eslint-parser@1.4.0(svelte@5.50.0))(typescript@5.9.3)'
@@ -605,8 +605,8 @@ packages:
   '@iconify-json/line-md@1.2.14':
     resolution: {integrity: sha512-ZlgQyMcptcni3wEua+ij9hXEuYmlHKlf38/fZT4Qhds07naE9NeEmE0tqWMHAtkir+r9VRTTz3jXzwXWkLZiCg==}
 
-  '@iconify-json/material-symbols@1.2.54':
-    resolution: {integrity: sha512-i2tBZPJeWI/DnvQ3DznodBOBQtZl0swLqyeCZx6yS6qXQ8aMGS4it/JgV3bRrffc3DbdIXGotPQqEBUJaDLqDw==}
+  '@iconify-json/material-symbols@1.2.55':
+    resolution: {integrity: sha512-9EHfqSpzXxQb5neA5/n5GcF15rccKG+oBJDwh/s8mmxfYswY1A4dKYPOWXCqrWMe/J3CmHb0tXFloscVarrqkQ==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -3103,7 +3103,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/material-symbols@1.2.54':
+  '@iconify-json/material-symbols@1.2.55':
     dependencies:
       '@iconify/types': 2.0.0
 
