@@ -31,7 +31,7 @@
 		"eslint-plugin-svelte": "^3.17.0",
 		"lucide-svelte": "^0.577.0",
 		"std-env": "^3.10.0",
-		"svelte": "^5.53.12",
+		"svelte": "^5.55.4",
 		"svelte-check": "^4.4.6",
 		"type-fest": "^5.4.4",
 		"typescript": "^5.9.3",
