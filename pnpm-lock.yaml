@@ -57,8 +57,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(svelte@5.55.7(@typescript-eslint/types@8.26.1))
       std-env:
-        specifier: ^3.10.0
-        version: 3.10.0
+        specifier: ^4.1.0
+        version: 4.1.0
       svelte:
         specifier: ^5.55.7
         version: 5.55.7(@typescript-eslint/types@8.26.1)
@@ -2580,8 +2580,8 @@ packages:
   stable-hash@0.0.5:
     resolution: {integrity: sha512-+L3ccpzibovGXFK+Ap/f8LOS0ahMrHTf3xu7mMLSpEGU0EO9ucaysSylKo9eRDFNhWve/y275iPmIZ4z39a9iA==}
 
-  std-env@3.10.0:
-    resolution: {integrity: sha512-5GS12FdOZNliM5mAOxFRg7Ir0pWz8MdpYm6AY6VPkGpbA7ZzmbzNcBJQ0GPvvyWgcY7QAhCgf9Uy89I03faLkg==}
+  std-env@4.1.0:
+    resolution: {integrity: sha512-Rq7ybcX2RuC55r9oaPVEW7/xu3tj8u4GeBYHBWCychFtzMIr86A7e3PPEBPT37sHStKX3+TiX/Fr/ACmJLVlLQ==}
 
   strip-indent@4.0.0:
     resolution: {integrity: sha512-mnVSV2l+Zv6BLpSD/8V87CW/y9EmmbYzGCIavsnsI6/nwn26DwffM/yztm30Z/I2DY9wdS3vXVCMnHDgZaVNoA==}
@@ -5478,7 +5478,7 @@ snapshots:
 
   stable-hash@0.0.5: {}
 
-  std-env@3.10.0: {}
+  std-env@4.1.0: {}
 
   strip-indent@4.0.0:
     dependencies:
