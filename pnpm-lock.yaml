@@ -42,8 +42,8 @@ importers:
         specifier: ^66.7.5
         version: 66.7.5
       '@unocss/reset':
-        specifier: ^66.7.4
-        version: 66.7.4
+        specifier: ^66.7.5
+        version: 66.7.5
       eslint:
         specifier: ^10.5.0
         version: 10.5.0(jiti@1.21.7)
@@ -1150,8 +1150,8 @@ packages:
   '@unocss/reset@66.6.0':
     resolution: {integrity: sha512-OQK5F7Dzx0wWDSPTYEz7NRP9pekufSAkjxfKOyKokiXOUzVTg8Yx8sOvCsA3Oi0Rx5WlsO2LN+MOBekpkrttXg==}
 
-  '@unocss/reset@66.7.4':
-    resolution: {integrity: sha512-DYUxI/WVIFCMYKc8/jXCQvp26SmB5UvZ3fYEI1jLeb9BHZYtINvHfs1tIDTWSXOIP1s/yOPFeBDx9bm1PBF4zg==}
+  '@unocss/reset@66.7.5':
+    resolution: {integrity: sha512-z3wbt2cuQPjtT6w5xzRYZYFIIlUPzhVKz8yIcE9fvu7BgR3hO7uVsg/5mzDoGwQ96Ya3Sk68rpmI/gLYl4bJag==}
 
   '@unocss/rule-utils@66.6.0':
     resolution: {integrity: sha512-v16l6p5VrefDx8P/gzWnp0p6/hCA0vZ4UMUN6SxHGVE6V+IBpX6I6Du3Egk9TdkhZ7o+Pe1NHxksHcjT0V/tww==}
@@ -3815,7 +3815,7 @@ snapshots:
 
   '@unocss/reset@66.6.0': {}
 
-  '@unocss/reset@66.7.4': {}
+  '@unocss/reset@66.7.5': {}
 
   '@unocss/rule-utils@66.6.0':
     dependencies:
