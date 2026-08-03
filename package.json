@@ -22,7 +22,7 @@
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.70.2",
-		"@sveltejs/vite-plugin-svelte": "^7.1.2",
+		"@sveltejs/vite-plugin-svelte": "^7.2.0",
 		"@unocss/extractor-svelte": "^66.7.5",
 		"@unocss/preset-attributify": "^66.7.5",
 		"@unocss/reset": "^66.7.5",
