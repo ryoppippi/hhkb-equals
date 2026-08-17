@@ -32,7 +32,7 @@
 		"lucide-svelte": "^1.0.1",
 		"std-env": "^4.2.0",
 		"svelte": "^5.56.9",
-		"svelte-check": "^4.7.5",
+		"svelte-check": "^4.7.6",
 		"type-fest": "^5.8.0",
 		"typescript": "^7.0.2",
 		"unocss": "^66.6.0",
