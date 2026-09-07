@@ -39,8 +39,8 @@ importers:
         specifier: ^66.10.0
         version: 66.10.0
       '@unocss/preset-attributify':
-        specifier: ^66.8.1
-        version: 66.8.1
+        specifier: ^66.10.0
+        version: 66.10.0
       '@unocss/reset':
         specifier: ^66.8.1
         version: 66.8.1
@@ -1218,11 +1218,11 @@ packages:
   '@unocss/core@66.0.0':
     resolution: {integrity: sha512-PdVbSMHNDDkr++9nkqzsZRAkaU84gxMTEgYbqI7dt2p1DXp/5tomVtmMsr2/whXGYKRiUc0xZ3p4Pzraz8TcXA==}
 
+  '@unocss/core@66.10.0':
+    resolution: {integrity: sha512-d3IMOBqbAdkq4zWiV469o1Q4qizdKbD/wkbvLaq7W6qf1aDrZ/dqg29aWMj23Nb48NVDNhsQAPUhQre/IZ04mQ==}
+
   '@unocss/core@66.6.0':
     resolution: {integrity: sha512-Sxm7HmhsPIIzxbPnWembPyobuCeA5j9KxL+jIOW2c+kZiTFjHeju7vuVWX9jmAMMC+UyDuuCQ4yE+kBo3Y7SWQ==}
-
-  '@unocss/core@66.7.5':
-    resolution: {integrity: sha512-UdJb8MiMywcau8QrWEVgUAz0kvoFHyR+sACwYCgmBh/BpKJGyR/zw/Ys3wvysbm0f+i/20VGBex/QQxYVlzdyQ==}
 
   '@unocss/core@66.8.1':
     resolution: {integrity: sha512-ze/3qTloXZtFn6TXiNjL6ai1vgMvTCXIm8nqTzoU/Dt5d5MRxA86ERfUmgTX70rEBam5l6vnsaEVZO6WnHhdRA==}
@@ -1242,11 +1242,11 @@ packages:
     peerDependencies:
       postcss: ^8.4.21
 
+  '@unocss/preset-attributify@66.10.0':
+    resolution: {integrity: sha512-cb6wBAJByWZPdg8pOL3rRLLYZJKWIvYt6Rw3aMdYxf34VZNrQO8+22AAYtK86LsHywOn7ULMwfLEV6iVbWKpcw==}
+
   '@unocss/preset-attributify@66.6.0':
     resolution: {integrity: sha512-IfGZT9LjQkfpJaVjDtFMxOlrEoj7m1DCztRdby0FaptXChE7vdgRkYFl8HDeXMkEIlzV1YTHuIarwJ+tV+1SRQ==}
-
-  '@unocss/preset-attributify@66.8.1':
-    resolution: {integrity: sha512-UIMQ4L9TpwaJNvkajziuP9Y46LLOS3qWBruK5GdafikJJPqq1DswVKCWkVkHSdC+3dbXl2NUXUS35byJiZOY6w==}
 
   '@unocss/preset-icons@66.6.0':
     resolution: {integrity: sha512-ObgmN9SsqU7TiClNvy+mQDyqzwOhlBXT0whXFp3iiBfSbnxUIDyf4Pr/2hwxnAWrCWCQj7xw2H0Y0sDtXq8XkA==}
@@ -3913,9 +3913,9 @@ snapshots:
 
   '@unocss/core@66.0.0': {}
 
-  '@unocss/core@66.6.0': {}
+  '@unocss/core@66.10.0': {}
 
-  '@unocss/core@66.7.5': {}
+  '@unocss/core@66.6.0': {}
 
   '@unocss/core@66.8.1': {}
 
@@ -3943,13 +3943,13 @@ snapshots:
       postcss: 8.5.8
       tinyglobby: 0.2.17
 
+  '@unocss/preset-attributify@66.10.0':
+    dependencies:
+      '@unocss/core': 66.10.0
+
   '@unocss/preset-attributify@66.6.0':
     dependencies:
       '@unocss/core': 66.6.0
-
-  '@unocss/preset-attributify@66.8.1':
-    dependencies:
-      '@unocss/core': 66.8.1
 
   '@unocss/preset-icons@66.6.0':
     dependencies:
@@ -4005,7 +4005,7 @@ snapshots:
 
   '@unocss/rule-utils@66.6.0':
     dependencies:
-      '@unocss/core': 66.7.5
+      '@unocss/core': 66.8.1
       magic-string: 0.30.21
 
   '@unocss/transformer-attributify-jsx@66.6.0':
