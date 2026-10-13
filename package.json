@@ -30,7 +30,7 @@
 		"eslint-plugin-format": "^2.0.1",
 		"eslint-plugin-svelte": "^3.23.1",
 		"lucide-svelte": "^1.0.1",
-		"std-env": "^4.2.0",
+		"std-env": "^4.3.0",
 		"svelte": "^5.57.2",
 		"svelte-check": "^4.7.6",
 		"type-fest": "^5.9.0",
