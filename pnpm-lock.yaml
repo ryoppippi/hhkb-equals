@@ -173,8 +173,8 @@ importers:
         specifier: ^1.2.16
         version: 1.2.16
       '@iconify-json/material-symbols':
-        specifier: ^1.2.97
-        version: 1.2.97
+        specifier: ^1.2.99
+        version: 1.2.100
       '@ryoppippi/eslint-config':
         specifier: npm:@jsr/ryoppippi__eslint-config@^0.0.28
         version: '@jsr/ryoppippi__eslint-config@0.0.28(@typescript-eslint/utils@8.26.1(eslint@10.14.0(jiti@1.21.7))(typescript@7.0.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@2.0.1(eslint@10.14.0(jiti@1.21.7)))(eslint-plugin-svelte@3.24.1(eslint@10.14.0(jiti@1.21.7))(svelte@5.57.3(@typescript-eslint/types@8.26.1)))(eslint@10.14.0(jiti@1.21.7))(svelte-eslint-parser@1.10.1(svelte@5.57.3(@typescript-eslint/types@8.26.1)))(typescript@7.0.2)'
@@ -751,8 +751,8 @@ packages:
   '@iconify-json/line-md@1.2.16':
     resolution: {integrity: sha512-esHPUQUp30NyqJWa7MNu6ExdG8z/aEFC5r56rVyRGhtJ7acOme6YtYPnDOgVu6p+kk24rM8602xkFuBC6g6x+w==}
 
-  '@iconify-json/material-symbols@1.2.97':
-    resolution: {integrity: sha512-MbE4QHrH4Z4eoerBFrzFSPqHw2NwVGwwOwGZdJym5l5N5loqEUThimlQpK9VJA6mvgWvj5jl43b8bZnqzOxNRQ==}
+  '@iconify-json/material-symbols@1.2.100':
+    resolution: {integrity: sha512-lo3JulvaCnCCYVZHfld4kQ2YNkN55xCtLGplVgETx0n6nRR8IknMphknSqIpFhT/4J3upZJmLBTQT6cyQn8ThQ==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -4039,7 +4039,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/material-symbols@1.2.97':
+  '@iconify-json/material-symbols@1.2.100':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -4387,7 +4387,7 @@ snapshots:
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
       estraverse: 5.3.0
-      picomatch: 4.0.5
+      picomatch: 4.0.7
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5252,7 +5252,7 @@ snapshots:
       eslint: 10.14.0(jiti@1.21.7)
       eslint-import-resolver-node: 0.3.9
       get-tsconfig: 4.14.0
-      picomatch: 4.0.5
+      picomatch: 4.0.7
       rspack-resolver: 1.1.2
       semver: 7.8.3
       stable-hash: 0.0.5
